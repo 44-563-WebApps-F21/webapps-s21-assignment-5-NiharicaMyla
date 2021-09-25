@@ -64,6 +64,82 @@ color:sienna  ;font-family: cursive; margin: 2px;
       <h4>Image of third animal with thumbnail</h4>
       <img src="yearling.jpg" class="img-thumbnail" alt="yearling" > 
     </div>
-
+    <style>
+      caption {
+          padding: 10px;
+          caption-side: bottom;
+      }
+      
+      table {
+          border-collapse: collapse;
+          border: 2px solid rgb(200, 200, 200);
+          letter-spacing: 1px;
+          font-family: sans-serif;
+          font-size: .8rem;
+      }
+      
+      td,th {
+          border: 1px solid black;
+          padding: 7px 5px;
+      }
+      
+      </style>
+      <div class="container">
+        <h2>Basic Table</h2>
+       <table class="table .table-bordered">
+        <caption>List of Animals, city and Car models </caption>
+          <thead>
+           <tr>
+           <th scope="col">#</th>
+            <th scope="col">Letter</th>
+            <th scope="col">Animal</th>
+            <th scope="col">City</th>
+            <th scope="col">Car</th>
+          </tr>
+          </thead>
+          <tr>
+            <th scope="row">1</th>
+              <td>M</td>
+              <td>Moose</td>
+              <td>Maryland</td>
+              <td>Mercury</td>
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+              <td>Y</td>
+              <td>Yearling</td>
+              <td>York</td>
+              <td>Yenko Chevrolet</td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+              <td>L</td>
+              <td>Leopard</td>
+              <td>Louisiana</td>
+              <td>Land Rover</td>
+            </tr>
+            <tr>
+            <th scope="row">4</th>
+              <td>A</td>
+              <td>Antelope</td>
+              <td>Arizona</td>
+              <td>Audi</td>
+            </tr>
+            <tr>
+            <th scope="row">5</th>
+              <td>N</td>
+              <td>Narwhal</td>
+              <td>Nevada</td>
+              <td>Nissan</td>
+            </tr>
+            <tr>
+            <th scope="row">6</th>
+              <td>I</td>
+              <td>Impala</td>
+              <td>Idaho</td>
+              <td>Infiniti</td>
+            </tr>
+        </table>
+      
 </body>
 </html>
